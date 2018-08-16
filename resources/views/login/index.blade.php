@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('login-css')
-    <link href="/css/login.css" rel="stylesheet">
+    <link href="/css/login.min.css" rel="stylesheet">
 @endpush
 
 

@@ -1,5 +1,5 @@
 @push('scripts')
-  <script src="js/app.js" ></script>
+  <script src="js/app.min.js" ></script>
 @endpush
 
 
@@ -14,7 +14,7 @@
     <title>Laravel Workshop - @yield('title')</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/app.min.css" rel="stylesheet">
     
     @stack('login-css')
     @stack('dashboard-css')
