@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @push('dashboard-css')
-    <link href="/css/dashboard.css" rel="stylesheet">
+    <link href="/css/dashboard.min.css" rel="stylesheet">
 @endpush
 
 @section('title', '2018 F1 Drivers Standings')

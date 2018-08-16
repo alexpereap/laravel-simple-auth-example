@@ -11,7 +11,8 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css')
-   .styles(['resources/assets/css/login.css'], 'public/css/login.css')
-   .styles(['resources/assets/css/dashboard.css'], 'public/css/dashboard.css');
+mix.js('resources/assets/js/app.js', 'public/js/app.min.js')
+   .sass('resources/assets/sass/app.scss', 'public/css/app.min.css')
+   .styles(['resources/assets/css/login.css'], 'public/css/login.min.css')
+   .styles(['resources/assets/css/dashboard.css'], 'public/css/dashboard.min.css')
+   .sourceMaps();
